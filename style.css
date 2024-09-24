@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.inc.com/uploaded_files/image/1920x1080/getty_638884198_366705.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    margin-top: 3rem;
+}
+
+form h1 {
+    text-align: center;
+}
+input{
+    background: none; 
+    border: none; 
+    border-bottom: 2px solid white; 
+}
+label, input {
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: large;
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #383a38;
+    color: white;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
